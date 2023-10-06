@@ -1,49 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!--ข้อมูลพื้นฐานเว็บไซต์-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCSTUPassport</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
 
-    <title>MyCSTUPassport </title>
+        header {
+            background-color: #ffe600;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+        }
 
+        nav ul {
+            
+            list-style-type: none;
+            padding: 15px;
+            
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: dimgrey;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+
+        img {
+            width: 300px;
+            height: 400px;
+            margin: 0;
+
+        }
+
+        video {
+            width: 320px;
+            height: 240px;
+            margin:  0;
+        }
+
+        
+    </style>
 </head>
 <body>
-    <!--หัวข้อเว็บ-->
-    <h1 style="color:blue;">  My CSTUPassport </h1>
-    <div class="img">
-        <img src="../image/fair.JPG" alt="fair's photo" width="300" height="400">
-        
-    </div>
-
-    <ol>
-        <li> <a href="index.html" >Homepage</a> </li>
-        <li> <a href="my advisor.html">My advisor</a> </li>
-        <li> <a href="my activities.html" >My activities</a> </li>
-    </ol>
+    <header>
+        <h1>MyCSTUPassport</h1>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="../MyCSTUPassport-6609613077/index.html" >Homepage</a> </li>
+            <li> <a href="../MyCSTUPassport-6609613077/html/myAdvisor.html">My advisor</a> </li>
+            <li> <a href="../MyCSTUPassport-6609613077/html/myActivities.html">My Activities</a> </li>
     
-    <!--ข้อมูลส่วนตัว-->
-    <p>
-        <h2><mark>About me</mark> </h2>
-        <strong>ชื่อ  : นางสาวธัญจิรา ศรัทธาพิริยะพงศ์</strong>
-        <br>ชื่อเล่น : แฟร์ 
-        <br>เกิดวันที่ 11 เดือนมิถุนายน พ.ศ 2548 
-        <br>กรุ๊ปเลือด: AB 
-        <br>การศึกษา: คณะวิทยาศาสตร์ และ เทคโนโลยี สาขา สถิติ มหาวิทยาลัย ธรรมศาสตร์​
-
+        </ul>
+    </nav>
+    <section class="about me">
+        <img src="../MyCSTUPassport-6609613077/image/fair.jpg" alt="fair's photo">
+        <h2>About me </h2>
+        <p>ชื่อ  : นางสาวธัญจิรา ศรัทธาพิริยะพงศ์</strong>
+            <br>ชื่อเล่น : แฟร์ 
+            <br>เกิดวันที่ 11 เดือนมิถุนายน พ.ศ 2548 
+            <br>กรุ๊ปเลือด: AB 
+            <br>การศึกษา: คณะวิทยาศาสตร์ และ เทคโนโลยี สาขา สถิติ มหาวิทยาลัย ธรรมศาสตร์​
+        </p>
         <h3><u>My contact</u></h3>
         <ul>
             <li>instagram : f_fairyfanc</li>
             <li>phone : 0983055229</li>
             <li>email : thunjirafair123@gmail.com </li>
         </ul>
-
-    </p>
+        <video controls>
+            <source src="../MyCSTUPassport-6609613077/VDO/my video.mp4" type="video/mp4">
+            Video not supported
+        </video>
+    </section>
     
-    <source src="../VDO/my video.mp4" type="video/mp4" width="320" height="240"  
-    controls>
-        Video not supported
-    </video>
-
 </body>
 </html>
