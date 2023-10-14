@@ -1,94 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyCSTUPassport</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #ffffff;
-            margin: 0;
-            padding: 0;
-        }
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyCSTUPassport</title>
+<style>
+* {
+  box-sizing: border-box;
+}
 
-        header {
-            background-color: #ffe600;
-            color: #fff;
-            text-align: center;
-            padding: 30px;
-        }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a {
+    text-decoration: none;
+}
 
-        nav ul {
-            
-            list-style-type: none;
-            padding: 15px;
-            
-        }
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
 
-        nav li {
-            display: inline;
-            margin-right: 20px;
-        }
+html {
+  font-family:Arial, Helvetica, sans-serif;
+}
 
-        nav a {
-            text-decoration: none;
-            color: dimgrey;
-        }
+.header {
+  background-color:#fad900;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
 
-        section {
-            padding: 20px;
-        }
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #ffc13a;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
 
-        img {
-            width: 300px;
-            height: 400px;
-            margin: 0;
+.menu li:hover {
+  background-color: #fad900;
+}
 
-        }
+.aside {
+  background-color: #ffa58c;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+img {
+        width: 45%;
+        height: 60;
+        margin: 0;
+    }
+video{
+        width: 45%;
+        height: 60;
+        margin: 0;
+    }
 
-        video {
-            width: 320px;
-            height: 240px;
-            margin:  0;
-        }
+.footer {
+  background-color: #3a3932;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
 
-        
-    </style>
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
 </head>
 <body>
-    <header>
-        <h1>MyCSTUPassport</h1>
-    </header>
-    <nav>
-        <ul>
-            <li> <a href="../MyCSTUPassport-6609613077/index.html" >Homepage</a> </li>
-            <li> <a href="../MyCSTUPassport-6609613077/html/myAdvisor.html">My advisor</a> </li>
-            <li> <a href="../MyCSTUPassport-6609613077/html/myActivities.html">My Activities</a> </li>
-    
-        </ul>
-    </nav>
-    <section class="about me">
-        <img src="../MyCSTUPassport-6609613077/image/fair.JPG" alt="fair's photo">
-        <h2>About me </h2>
-        <p>ชื่อ  : นางสาวธัญจิรา ศรัทธาพิริยะพงศ์</strong>
-            <br>ชื่อเล่น : แฟร์ 
-            <br>เกิดวันที่ 11 เดือนมิถุนายน พ.ศ 2548 
-            <br>กรุ๊ปเลือด: AB 
-            <br>การศึกษา: คณะวิทยาศาสตร์ และ เทคโนโลยี สาขา สถิติ มหาวิทยาลัย ธรรมศาสตร์​
-        </p>
-        <h3><u>My contact</u></h3>
-        <ul>
-            <li>instagram : f_fairyfanc</li>
-            <li>phone : 0983055229</li>
-            <li>email : thunjirafair123@gmail.com </li>
-        </ul>
-        <video controls>
-            <source src="../MyCSTUPassport-6609613077/VDO/my video.mp4" type="video/mp4">
-            Video not supported
-        </video>
-    </section>
-    
+
+<div class="header">
+  <h1>MyCSTUPassport</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+        <li> <a href="../MyCSTUPassport-6609613077/index.html" >Homepage</a> </li>
+        <li> <a href="../MyCSTUPassport-6609613077/html/myAdvisor.html">My advisor</a> </li>
+        <li> <a href="../MyCSTUPassport-6609613077/html/myActivities.html" >My activities</a> </li>
+    </ul>
+  </div>
+   
+
+  <div class="col-6 col-s-9">
+    <h1>About me</h1>
+    <img src="../MyCSTUPassport-6609613077/image/fair.JPG" alt="fair">
+    <p>ชื่อ  : นางสาวธัญจิรา ศรัทธาพิริยะพงศ์</strong>
+        <br>ชื่อเล่น : แฟร์ 
+        <br>เกิดวันที่ 11 เดือนมิถุนายน พ.ศ 2548 
+        <br>กรุ๊ปเลือด: AB 
+        <br>การศึกษา: คณะวิทยาศาสตร์ และ เทคโนโลยี สาขา สถิติ มหาวิทยาลัย ธรรมศาสตร์​
+    </p>
+    <video controls>
+        <source src="../MyCSTUPassport-6609613077/VDO/my video.mp4" type="video/mp4">
+        Video not supported
+    </video>
+
+  </div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+      <h2>My contact</h2>
+      <h4>Instagram</h4> 
+      <p> f_fairyfanc</p>
+      <h4>Email</h4>
+      <p>thunjira.sat@dome.tu.ac.th</p>
+      <h4>Phone</h4>
+      <p>0983055229</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p> จัดทำโดย ธัญจิรา ศรัทธาพิริยะพงศ์ </p>
+</div>
+
 </body>
 </html>
+
+
+
